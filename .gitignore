@@ -1,0 +1,8 @@
+/build
+/dist
+/dist_alternate
+/PDF Comb.bat
+/PDF Combiner 1.0 - Shortcut.lnk
+/pdf_combiner_gui.spec
+/pyinstaller notes
+/__pycache__

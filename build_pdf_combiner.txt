@@ -1,0 +1,21 @@
+pyinstaller pdf_combiner_gui.py --additional-hooks-dir=1mJ.ico
+Still got error message about the .ico file
+
+After commenting out the line of code that specifies the icon, the following command works.
+The created folder can be moved, and a shortcut made to the pdf_combiner_gui.exe file:
+pyinstaller pdf_combiner_gui.py
+
+The following also works, but is slower to start up - about 18s vs 1s:
+
+pyinstaller pdf_combiner_gui.py --onefile -w
+
+   Per https://www.youtube.com/watch?v=t51bT7WbeCM:
+   --onefile creates a standalone .exe file without all the support files.
+   -w prevents a commaned window from opening before the GUI opens.
+
+So the best combination is probably this:
+pyinstaller pdf_combiner_gui.py -w
+
+2/13/2022:  Commenting out "from PIL import ImageTk, Image" (which was a leftover from tkinter course)
+drastically reduced the dist folder contents!  Saved as V1.01, which also deletes "import time" & sleep.
+
