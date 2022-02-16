@@ -1,3 +1,6 @@
+Notes about distributing PDF Combiner with pyinstall
+====================================================
+
 pyinstaller pdf_combiner_gui.py --additional-hooks-dir=1mJ.ico
 Still got error message about the .ico file
 
@@ -18,4 +21,14 @@ pyinstaller pdf_combiner_gui.py -w
 
 2/13/2022:  Commenting out "from PIL import ImageTk, Image" (which was a leftover from tkinter course)
 drastically reduced the dist folder contents!  Saved as V1.01, which also deletes "import time" & sleep.
+
+2/15/2022:  The program's command window now lists files not added, so -w is not a good idea.
+            Alos, renamed top file, so command is now:
+
+pyinstaller PDF_Combiner.py
+or
+pyinstaller PDF_Combiner.py --onefile
+After the 2/13/2022 change described above, the start-up time of the stand-alone .exe is down to about 
+3 seconds, and the files size went from 330MB to 11MB.
+
 
