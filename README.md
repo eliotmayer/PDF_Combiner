@@ -8,7 +8,8 @@ File build_pdf_combiner.txt describes my learning curve with pyinstaller.
 
 One or more exectuble versions of the program, created with pyinstaller, are in the "dist" sub-folder.  These are for the Windows operating system, tested on Windows 10.
 
-Usage:
+Usage
+
 ![image](https://user-images.githubusercontent.com/99143745/154311551-5dd7ad47-8188-4f2b-8c7c-179fa148e713.png)
 
 1.  Start the app.
@@ -16,4 +17,12 @@ Usage:
 3.  Click "Combine Files" to combine the files into a single PDF in the Combined sub-folder.
 4.  Optionally, click "Open Output Folder" to open File Explorer to the Combined sub-folder.
 
+Status is reported.  As shown below, the app reports on any corrupted PDF files that could not be added.
 
+![image](https://user-images.githubusercontent.com/99143745/154312374-8361dca7-5572-4bd7-ae57-a0400aa2ba88.png)
+
+![image](https://user-images.githubusercontent.com/99143745/154312430-c2c62c83-3d1b-42d5-8370-ab378cf47441.png)
+
+![image](https://user-images.githubusercontent.com/99143745/154312586-6c7ebb14-4ff1-42b2-843d-c3bc20236759.png)
+
+The output file, hard-coded as "Combined PDF Files.pdf", contains Bookmarks with the names of the original files.
