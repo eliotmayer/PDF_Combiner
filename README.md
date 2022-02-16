@@ -8,9 +8,7 @@ File build_pdf_combiner.txt describes my learning curve with pyinstaller.
 
 One or more exectuble versions of the program, created with pyinstaller, are in the "dist" sub-folder.  These are for the Windows operating system, tested on Windows 10.
 
-Usage
-
-![image](https://user-images.githubusercontent.com/99143745/154311551-5dd7ad47-8188-4f2b-8c7c-179fa148e713.png)
+## Usage
 
 1.  Start the app.
 2.  Click "Select Folder" and select the fold of PDF files to be combined.
@@ -25,4 +23,4 @@ Status is reported.  As shown below, the app reports on any corrupted PDF files 
 
 ![image](https://user-images.githubusercontent.com/99143745/154312586-6c7ebb14-4ff1-42b2-843d-c3bc20236759.png)
 
-The output file, hard-coded as "Combined PDF Files.pdf", contains Bookmarks with the names of the original files.
+The output file, "Combined PDF Files.pdf", contains Bookmarks with the names of the original files.
