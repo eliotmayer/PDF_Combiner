@@ -29,6 +29,11 @@ pyinstaller PDF_Combiner.py
 or
 pyinstaller PDF_Combiner.py --onefile
 After the 2/13/2022 change described above, the start-up time of the stand-alone .exe is down to about 
-3 seconds, and the files size went from 330MB to 11MB.
+3 seconds, and the files size went from 330MB to 11MB.  So I'll go that route for now.
+
+My builds with pyinstaller are done outside of the GitHub project, and even 
+outside of the local project folder (to avoid excessive OneDrive traffic).
+However, end products of the build (.exe or .zip) are copied to the "dist"
+sub-folder of the local folder / GitHub.
 
 
