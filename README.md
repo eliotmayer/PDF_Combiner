@@ -9,7 +9,7 @@ File build_pdf_combiner.txt describes my learning curve with pyinstaller.  One o
 ## Usage
 
 1.  Start the app.
-2.  Click "Select Folder" and select the fold of PDF files to be combined.
+2.  Click "Select Folder" and select the folder of PDF files to be combined.
 3.  Click "Combine Files" to combine the files into a single PDF in the Combined sub-folder.
 4.  Optionally, click "Open Output Folder" to open File Explorer to the Combined sub-folder.
 
